@@ -1,0 +1,105 @@
+
+.profile-header{
+	width: 100%;
+	background-color: rgba(224, 224, 224, 0.75);
+	border-radius: 60px;
+	text-align: center;
+	padding: 10px 15px;
+	margin: 10px 0;
+}
+.profile-head h1{
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 46px;
+	letter-spacing: 0em;
+}
+.profile-form .form label{
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 27px;
+}
+.profile-form .form input{
+	width: 545px;
+	height: 70px;
+	background: #4E4D4D;
+	color: #fff;
+	padding: 0 10px;
+	opacity: 0.4;
+	border-radius: 40px;
+	margin: 5px 0;
+}
+.form .form-email{
+	color: #455A64;
+}
+.form button{
+	box-sizing: border-box;
+	width: 545px;
+	height: 70px;
+	font-size:25px;
+	line-height: 37px;
+	background: rgba(70, 218, 191, 0.75);
+	border: 2px solid #4E4D4D;
+	border-radius: 40px;
+}
+.profile-icons{
+	width: 545px;
+	height: 70px;
+	padding: 10px 0;
+	border: 2px solid #4E4D4D;
+	border-radius: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.form p{
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 400;
+	color: #4E4D4D;
+}
+.form p a{
+	text-decoration: none;
+	color:#4E4D4D;
+}
+
+/*media curies are goes here*/
+
+@media only screen and (max-width:768px){
+	.profile-head h1{
+		font-size: 22px;
+	}
+	.profile-form .form label{
+		font-size: 20px	;
+	}
+	.profile-form .form input{
+		width: 380px;
+	}
+	.form button{
+		width: 380px;
+	}
+	.profile-icons{
+		width: 380px;
+	}
+	.form p{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width:575px){
+	.profile-head h1{
+		font-size: 18px;
+	}
+	.profile-form .form label{
+		font-size: 16px	;
+	}
+	.profile-form .form input{
+		width: 250px;
+	}
+	.form button{
+		width: 250px;
+	}
+	.profile-icons{
+		width: 250px;
+	}
+	.form p{
+		font-size: 16px;
+	}
+}
